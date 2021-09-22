@@ -1,10 +1,10 @@
 # LinkedIn Profile Scraper
-LinkedIn profile scraper is developed using Selenium and Beautifull soup libraries in python. It can scrap data from public Linedin User profiles.
+LinkedIn profile scraper is developed using Selenium and Beautifull soup libraries in python. It can scrap data from public Linedin User profiles. This Scraper Works as of 2021.
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![pythonbadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
-This scraper will extract publicly available data:
+This scraper will extract publicly available data: 
 
 **🧑‍🎨 Profile:** name, talks about, title, location, and url
 
