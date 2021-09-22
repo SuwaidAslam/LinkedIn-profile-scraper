@@ -14,6 +14,7 @@ This scraper will extract publicly available data:
 
 ## Getting started
 In order to scrape LinkedIn profiles, you need to make sure the scraper is logged-in into LinkedIn. For that you need to enter your Linkedin account email and Password in Config file. I suggest you enable all the privacy options so people don't see you visiting their profiles when using the scraper.
+You will have to provide link to the profile which you want to scrap.
 
 ### About the performance
 - Upon start the module will open a headless browser session using Chromium.
