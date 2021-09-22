@@ -1,13 +1,16 @@
 # LinkedIn Profile Scraper
 LinkedIn profile scraper is developed using Selenium and Beautifull soup libraries in python. It can scrap data from public Linedin User profiles.
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![pythonbadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
 This scraper will extract publicly available data:
 
 **🧑‍🎨 Profile:** name, talks about, title, location, and url
 
-**👨‍💼 Experiences:** job title, company name and job type, company url
+**👨‍💼 Experiences:** job title, company name and job type and, company url
 
-**🗺️ Contact:** Email, Website Link
+**🗺️ Contact:** Email and Website Link
 
 ## Getting started
 In order to scrape LinkedIn profiles, you need to make sure the scraper is logged-in into LinkedIn. For that you need to enter your Linkedin account email and Password in Config file. I suggest you enable all the privacy options so people don't see you visiting their profiles when using the scraper.
@@ -18,3 +21,7 @@ In order to scrape LinkedIn profiles, you need to make sure the scraper is logge
 
 ### Usage limits
 LinkedIn has some usage limits in place. Please respect those and use their options to increase limits. More info: [LinkedIn Commercial Use Limit](https://www.linkedin.com/help/linkedin/answer/52950)
+
+## Contact
+
+For any feedback or queries, please reach out to me at [suwaidaslam@gmail.com](suwaidaslam@gmail.com).
