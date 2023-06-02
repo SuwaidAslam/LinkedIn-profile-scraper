@@ -42,17 +42,18 @@ links = ['https://www.linkedin.com/in/suwaidaslam/',
         # 'https://www.linkedin.com/in/munawar-hussain-70734b38/',
         ]
 
-for link in links:
-    browser.get(link)
-    browser.implicitly_wait(1)
-    def scroll_down_page(speed=8):
+def scroll_down_page(speed=8):
         current_scroll_position, new_height= 0, 1
         while current_scroll_position <= new_height:
             current_scroll_position += speed
             browser.execute_script("window.scrollTo(0, {});".format(current_scroll_position))
             new_height = browser.execute_script("return document.body.scrollHeight")
 
-    scroll_down_page(speed=8)
+for link in links:
+    browser.get(link)
+    browser.implicitly_wait(1)
+    
+    scroll_down_page()
 
     src = browser.page_source
     soup = BeautifulSoup(src, 'lxml')
